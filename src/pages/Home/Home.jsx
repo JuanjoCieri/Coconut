@@ -5,6 +5,7 @@ import Section04 from "./Sections/04/Section04";
 import Section05 from "./Sections/05/Section05";
 import Section06 from "./Sections/06/Section06";
 import Section07 from "./Sections/07/Section07";
+import Section08 from "./Sections/08/Section08";
 
 export default function Home () {
     return (
@@ -16,6 +17,7 @@ export default function Home () {
         <Section05 />
         <Section06 />
         <Section07 />
+        <Section08 />
         </>
     )
 }
