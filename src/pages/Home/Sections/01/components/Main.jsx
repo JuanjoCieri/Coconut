@@ -2,7 +2,7 @@ import Desktop from "../../../../../assets/Section01/Desktop.png";
 
 export default function Main() {
   return (
-    <div className="flex justify-center items-center py-10">
+    <div className="flex justify-center items-center pt-10 pb-24">
       <div className="w-1/2 flex flex-col justify-center items-start gap-7 pr-10">
         <div className="border border-[#D029EB] rounded-full py-1 px-10">
           <p className="text-[#D029EB] text-xl">Design & Development</p>
