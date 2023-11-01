@@ -68,15 +68,15 @@ export default function Footer() {
               <div>
                 <p className="text-white text-lg">Follow us</p>
               </div>
-              <div className="flex justify-center items-center gap-4">
+              <div className="flex justify-start items-center gap-4">
                 <p className="text-[#D3D3D3] text-sm">linkedin</p>
                 <ArrowUpRightIcon />
               </div>
-              <div className="flex justify-center items-center gap-4">
+              <div className="flex justify-start items-center gap-4">
                 <p className="text-[#D3D3D3] text-sm">instagram</p>
                 <ArrowUpRightIcon />
               </div>
-              <div className="flex justify-center items-center gap-4">
+              <div className="flex justify-start items-center gap-4">
                 <p className="text-[#D3D3D3] text-sm">dribble</p>
                 <ArrowUpRightIcon />
               </div>

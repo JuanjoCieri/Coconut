@@ -16,8 +16,8 @@ export default function Section05() {
         </div>
         <div>
           <Marquee speed={100} className="overflow-y-hidden pt-64">
-            <span className="text-9xl text-[#373737]">
-              Focus on user experience 
+            <span className="text-9xl text-[#373737] px-6">
+              Focus on user experience. 
             </span>
           </Marquee>
         </div>
