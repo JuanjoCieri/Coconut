@@ -1,9 +1,8 @@
 export default function Testimonials() {
   return (
-    <div className="w-[60%]">
+    <div className=" w-[100%] tablet:w-[90%] laptop:w-[60%] desktop:w-[60%]">
       <div className="flex flex-col gap-5">
         <div className="flex gap-5">
-
         <p className="text-9xl text-white font-bold">"</p>
         <p className="text-4xl text-white">
           In coconut ipsum dolor sit amet, consectetur adipiscing elit, sed do

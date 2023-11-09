@@ -1,8 +1,8 @@
 export default function SolidCard() {
   return (
-    <div className="w-[450px] h-[450px] rounded-lg bg-[url('/src/assets/Section02/SolidDesignSolutions.png')] flex flex-col justify-between px-4 py-6">
+    <div className="w-[350px] tablet:w-[350px] laptop:w-[400px] desktop:w-[450px] h-[350px] tablet:h-[350px] laptop:h-[400px] desktop:h-[450px] rounded-lg bg-[url('/src/assets/Section02/SolidDesignSolutions.png')] flex flex-col justify-between px-4 py-6">
       <div>
-        <h3 className="text-6xl text-white">Solid Design Solutions</h3>
+        <h3 className="text-5xl tablet:text-5xl laptop:text-6xl desktop:text-6xl text-white">Solid Design Solutions</h3>
       </div>
       <div className="flex flex-col items-start gap-3">
         <div >

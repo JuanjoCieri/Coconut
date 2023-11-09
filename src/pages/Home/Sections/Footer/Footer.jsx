@@ -2,11 +2,11 @@ import { ArrowRigthIcon, ArrowUpRightIcon } from "../../../../utils/Icons";
 
 export default function Footer() {
   return (
-    <footer className="py-[2rem] px-[4rem] bg-[url('/src/assets/Footer/Gradient.png')] bg-top flex justify-center relative">
+    <footer className="py-[2rem] px-[1rem] tablet:px-[2rem] laptop:px-[3rem] desktop:px-[4rem] bg-[url('/src/assets/Footer/Gradient.png')] bg-cover bg-top flex justify-center relative">
       <div className="bg-black h-16 w-full absolute top-0 rounded-b-[100px]"></div>
-      <div className="w-[1400px] w-max-[1400px] h-[600px] pt-16">
-        <div className="h-5/6 flex justify-center items-center">
-          <div className="w-2/3 flex flex-col justify-center items-start gap-10">
+      <div className="w-[1400px] w-max-[1400px] h-[900px]  tablet:h-[800px] laptop:h-[600px] desktop:h-[600px] pt-16">
+        <div className="h-5/6 flex flex-col tablet:flex-col laptop:flex-row desktop:flex-row justify-center items-center">
+          <div className=" w-full tablet:w-full laptop:w-2/3 desktop:w-2/3 flex flex-col justify-center items-start gap-10">
             <div>
               <div>
                 <p className="text-white text-3xl pb-4">🥥 Coconut</p>
@@ -39,7 +39,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="w-1/3 flex justify-center items-start gap-10">
+          <div className=" w-full tablet:w-full laptop:w-1/3 desktop:w-1/3 flex  justify-start tablet:justify-start laptop:justify-center desktop:justify-center items-start gap-10">
             <div className="flex flex-col gap-5">
               <div>
                 <p className="text-white text-lg">Contact Us</p>
