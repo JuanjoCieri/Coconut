@@ -35,7 +35,7 @@ export default function Footer() {
 
               <div>
                 <p className="text-[#BBBBBB] text-lg">Or send us a email.</p>
-                <p className="text-sm text-[#D7D7D7]">coconut@gmail.com</p>
+                <p className="text-sm text-[#D7D7D7]">coconutdevag@gmail.com</p>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Footer() {
               <div>
                 <p className="text-[#D3D3D3] text-sm">
                   Our email: <br />
-                  coconut@gmai.com
+                  coconutdevag@gmail.com
                 </p>
               </div>
               <div>

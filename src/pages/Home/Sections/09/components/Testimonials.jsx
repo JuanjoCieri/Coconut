@@ -5,9 +5,7 @@ export default function Testimonials() {
         <div className="flex gap-5">
         <p className="text-9xl text-white font-bold">"</p>
         <p className="text-4xl text-white">
-          In coconut ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud{" "}
+        Thanks to Coconut fast delivery and high-quality products, we can provide our new solutions much quicker. The team assisted in reaching the goals and objectives while staying within budget, consistently proving to be an excellent partner.
         </p>
         </div>
         <div className="w-full bg-white h-0.5"></div>
