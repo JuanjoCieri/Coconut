@@ -13,7 +13,7 @@ export default function Testimonials() {
         <div className="w-full bg-white h-0.5"></div>
         <div className="flex justify-between items-center">
           <div className="flex justify-center items-center gap-4">
-            <div className="w-16 h-16 bg-white rounded-full"></div>
+            <div className="w-16 h-16 bg-[url('/src/assets/empresario.jpg')] bg-cover bg-right rounded-full"></div>
             <div>
               <p className="text-lg text-white">Juan Martín</p>
               <p className="text-[#9A9A9A] text-sm">Founder & CEO</p>

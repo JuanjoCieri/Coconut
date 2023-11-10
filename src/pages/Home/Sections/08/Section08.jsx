@@ -7,12 +7,12 @@ export default function Section08() {
         <div className="bg-[#FAEFFF] rounded-[50px] w-full h-[500px] relative flex justify-center items-center">
           <Marquee className="opacity-20 overflow-y-hidden h-44">
             <p className="text-9xl px-6">🥥</p>
-            <p className="text-9xl px-6">🥥</p>
-            <p className="text-9xl px-6">🥥</p>
-            <p className="text-9xl px-6">🥥</p>
-            <p className="text-9xl px-6">🥥</p>
-            <p className="text-9xl px-6">🥥</p>
-            <p className="text-9xl px-6">🥥</p>
+            <p className="text-9xl px-6 hidden tablet:flex">🥥</p>
+            <p className="text-9xl px-6 hidden tablet:flex">🥥</p>
+            <p className="text-9xl px-6 hidden tablet:flex">🥥</p>
+            <p className="text-9xl px-6 hidden tablet:flex">🥥</p>
+            <p className="text-9xl px-6 hidden tablet:flex">🥥</p>
+            <p className="text-9xl px-6 hidden tablet:flex">🥥</p>
           </Marquee>
           <span className="text-black  text-4xl tablet: laptop: desktop:text-7xl text-center absolute z-50  px-8 tablet:px-16 laptop:px-24 desktop:px-24">
             At Coconut, We Transform your Visions into Tangible Digital

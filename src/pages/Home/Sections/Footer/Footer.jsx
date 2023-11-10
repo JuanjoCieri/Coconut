@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="py-[2rem] px-[1rem] tablet:px-[2rem] laptop:px-[3rem] desktop:px-[4rem] bg-[url('/src/assets/Footer/Gradient.png')] bg-cover bg-top flex justify-center relative">
       <div className="bg-black h-16 w-full absolute top-0 rounded-b-[100px]"></div>
       <div className="w-[1400px] w-max-[1400px] h-[900px]  tablet:h-[800px] laptop:h-[600px] desktop:h-[600px] pt-16">
-        <div className="h-5/6 flex flex-col tablet:flex-col laptop:flex-row desktop:flex-row justify-center items-center">
+        <div className="h-5/6 flex flex-col tablet:flex-col laptop:flex-row desktop:flex-row justify-center items-center gap-10">
           <div className=" w-full tablet:w-full laptop:w-2/3 desktop:w-2/3 flex flex-col justify-center items-start gap-10">
             <div>
               <div>

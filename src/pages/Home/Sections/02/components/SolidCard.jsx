@@ -13,9 +13,12 @@ export default function SolidCard() {
           </p>
         </div>
         <div className="w-[100%] h-0.5 bg-white"></div>
-        <div>
+        <div className="flex justify-center item-center gap-3">
           <div className="bg-white bg-opacity-60 py-1 px-8 rounded-full">
             <p className="text-white">Figma</p>
+          </div>
+          <div className="bg-white bg-opacity-60 py-1 px-8 rounded-full">
+            <p className="text-white">Python</p>
           </div>
         </div>
       </div>

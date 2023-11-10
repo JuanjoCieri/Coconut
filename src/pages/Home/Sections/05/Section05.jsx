@@ -9,7 +9,7 @@ export default function Section05() {
         src={SmartDevelopmentImage}
         className="animate-wiggle animate-infinite animate-duration-[10000ms] w-[350px] tablet:w-[400px] laptop:w-[600px] desktop:w-[700px] absolute z-50 mt-36 ml-[525px] tablet: laptop: desktop:ml-96"
       />
-        <div className="bg-red-200">
+        <div className="">
           <h4 className="text-white  text-8xl tablet: laptop: desktop:text-8xl">
             Smart <br /> Development
           </h4>

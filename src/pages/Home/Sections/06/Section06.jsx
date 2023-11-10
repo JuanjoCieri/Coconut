@@ -1,5 +1,9 @@
 import HandHoldingPhone from "../../../../assets/Section06/HandHoldingPhone.png";
 import AlfaOmegaLanding from "../../../../assets/Section06/AlfaOmegaLanding.png";
+import AlfaOmegaHome from "../../../../assets/Section06/AlfaOmegaHome.png";
+import AlfaOmegaCredit from "../../../../assets/Section06/AlfaOmegaCredito.png";
+import AlfaOmegaProfile from "../../../../assets/Section06/AlfaOmegaProfile.png";
+
 
 export default function Section06() {
   return (
@@ -11,14 +15,14 @@ export default function Section06() {
           </span>
         </div>
         <div className=" h-[800px] tablet:h-[1100px] laptop:h-[1500px] desktop:h-[1500px] flex flex-col gap-10 py-10 justify-start items-center relative">
-          <img src={HandHoldingPhone} className="w-[600px] absolute mr-20 tablet:mr-20 laptop:mr-32 desktop:mr-44" />
+          {/* <img src={HandHoldingPhone} className="w-[600px] absolute mr-20 tablet:mr-20 laptop:mr-32 desktop:mr-44" /> */}
           <div className="flex flex-row justify-between items-center w-full">
             <img src={AlfaOmegaLanding} className="rounded-3xl  w-[150px] tablet:w-[200px] laptop:w-[300px] desktop:w-[300px]" />
-            <img src={AlfaOmegaLanding} className="rounded-3xl  w-[150px] tablet:w-[200px] laptop:w-[300px] desktop:w-[300px]" />
+            <img src={AlfaOmegaHome} className="rounded-3xl  w-[150px] tablet:w-[200px] laptop:w-[300px] desktop:w-[300px]" />
           </div>
           <div className="flex flex-row justify-between items-center w-full">
-            <img src={AlfaOmegaLanding} className="rounded-3xl  w-[150px] tablet:w-[200px] laptop:w-[300px] desktop:w-[300px]" />
-            <img src={AlfaOmegaLanding} className="rounded-3xl  w-[150px] tablet:w-[200px] laptop:w-[300px] desktop:w-[300px]" />
+            <img src={AlfaOmegaCredit} className="rounded-3xl  w-[150px] tablet:w-[200px] laptop:w-[300px] desktop:w-[300px]" />
+            <img src={AlfaOmegaProfile} className="rounded-3xl  w-[150px] tablet:w-[200px] laptop:w-[300px] desktop:w-[300px]" />
           </div>
         </div>
       </div>

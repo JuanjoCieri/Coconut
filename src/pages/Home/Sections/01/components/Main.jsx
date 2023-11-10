@@ -8,7 +8,7 @@ export default function Main() {
           <p className="text-[#D029EB] tablet:text-lg text-sm laptop:text-lg desktop:text-xl">Design & Development</p>
         </div>
         <div>
-          <h1 className="text-white text-7xl tablet:text-2xl laptop:text-4xl desktop:text-7xl">Digital Agency</h1>
+          <h1 className="text-white text-7xl tablet:text-7xl laptop:text-7xl desktop:text-7xl">Digital Agency</h1>
         </div>
         <div>
           <h2 className="text-[#7B7B7B] text-lg tablet:text-lg laptop:text-lg desktop:text-xl">
@@ -23,7 +23,7 @@ export default function Main() {
           </button>
         </div>
       </div>
-      <div className="hidden tablet:hidden laptop:hidden desktop: w-1/2">
+      <div className=" w-1/2 hidden tablet:flex">
         <img src={Desktop} alt="Desktop image" className="w-[500px]" />
       </div>
       <div>
