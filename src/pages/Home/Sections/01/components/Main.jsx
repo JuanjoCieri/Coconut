@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Desktop from "../../../../../assets/Section01/Desktop.png";
 export default function Main() {
   
@@ -18,9 +19,11 @@ export default function Main() {
           </h2>
         </div>
         <div>
+          <Link to={"/form"}>
           <button className="font-bold text-black bg-white py-3 px-12 tablet:px-12 laptop:px-12 desktop:px-16 rounded-full text-xl tablet:text-xl laptop:text-lg desktop:text-xl">
             Let´s talk
           </button>
+          </Link>
         </div>
       </div>
       <div className=" w-1/2 hidden tablet:flex">

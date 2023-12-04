@@ -1,3 +1,4 @@
+import transition from "../../transition";
 import Section01 from "./Sections/01/Section01";
 import Section02 from "./Sections/02/Section02";
 import Section03 from "./Sections/03/Section03";
@@ -9,7 +10,7 @@ import Section08 from "./Sections/08/Section08";
 import Section09 from "./Sections/09/Section09";
 import Footer from "./Sections/Footer/Footer";
 
-export default function Home () {
+const Home = () => {
     return (
         <>
         <Section01 />
@@ -25,3 +26,5 @@ export default function Home () {
         </>
     )
 }
+
+export default transition(Home)
