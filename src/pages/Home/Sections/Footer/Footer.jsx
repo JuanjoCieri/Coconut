@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ArrowRigthIcon, ArrowUpRightIcon } from "../../../../utils/Icons";
 
 export default function Footer() {
@@ -25,12 +26,14 @@ export default function Footer() {
                 </p>
               </div>
               <div>
-                <button className="flex flex-row justify-center items-center gap-4 rounded-full py-1 pl-4 pr-1 border border-white">
-                  <p className="text-white">Start a project</p>
-                  <div className="p-2 rounded-full bg-white">
-                    <ArrowRigthIcon />
-                  </div>
-                </button>
+                <Link to={"/form"}>
+                  <button className="flex flex-row justify-center items-center gap-4 rounded-full py-1 pl-4 pr-1 border border-white">
+                    <p className="text-white">Start a project</p>
+                    <div className="p-2 rounded-full bg-white">
+                      <ArrowRigthIcon />
+                    </div>
+                  </button>
+                </Link>
               </div>
 
               <div>

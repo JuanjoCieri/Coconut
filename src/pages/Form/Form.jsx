@@ -53,18 +53,18 @@ const Form = () => {
                 value={details.email}
                 onChange={handleDetailsChange}
                 type="email"
-                placeholder="Adam smith"
+                placeholder="youremail@gmail.com"
                 className="text-sm py-1 px-2 border border-0.5 bg-transparent border-white rounded-lg"
               />
             </div>
             <div className="flex flex-col gap-3">
-              <label className="text-2xl">City</label>
+              <label className="text-2xl">Industry</label>
               <input
                 name="city"
                 value={details.city}
                 onChange={handleDetailsChange}
                 type="text"
-                placeholder="Adam smith"
+                placeholder="Ecommerce, agency, etc."
                 className="text-sm py-1 px-2 border border-0.5 bg-transparent border-white rounded-lg"
               />
             </div>
