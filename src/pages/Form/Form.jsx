@@ -4,30 +4,27 @@ import NavBar from "../Home/Sections/01/components/NavBar";
 import { sendCustomEmail } from "../../email";
 
 const Form = () => {
+  const [details, setDetails] = useState({
+    name: "",
+    email: "",
+    city: "",
+    description: "",
+  });
 
-    const [details, setDetails] = useState({
-        name: "",
-        email: "",
-        city: "",
-        description: ""
-      });
+  const handleDetailsChange = (event) => {
+    const { name, value } = event.target;
 
-      console.log(details)
-
-      const handleDetailsChange = (event) => {
-        const { name, value } = event.target;
-    
-        setDetails((prevDetails) => {
-          return {
-            ...prevDetails,
-            [name]: value,
-          };
-        });
+    setDetails((prevDetails) => {
+      return {
+        ...prevDetails,
+        [name]: value,
       };
-    
-      const handleSendEmail = () => {
-        sendCustomEmail(details);
-      };
+    });
+  };
+
+  const handleSendEmail = () => {
+    sendCustomEmail(details);
+  };
 
   return (
     <section className="bg-[url('/src/assets/Section01/Gradient.png')] bg-repeat w-[100%] h-[100%]">
@@ -40,37 +37,58 @@ const Form = () => {
           <form className="flex flex-col gap-10 border border-white w-full p-4 rounded-xl border-0.5">
             <div className="flex flex-col gap-3">
               <label className="text-2xl">Name</label>
-              <input name="name"
-          value={details.name}
-          onChange={handleDetailsChange}
-          type="text" placeholder="Adam smith" className="text-sm py-1 px-2 border border-0.5 bg-transparent border-white rounded-lg" />
+              <input
+                name="name"
+                value={details.name}
+                onChange={handleDetailsChange}
+                type="text"
+                placeholder="Adam smith"
+                className="text-sm py-1 px-2 border border-0.5 bg-transparent border-white rounded-lg"
+              />
             </div>
             <div className="flex flex-col gap-3">
               <label className="text-2xl">Email</label>
-              <input name="email"
-          value={details.email}
-          onChange={handleDetailsChange}
-          type="email" placeholder="Adam smith" className="text-sm py-1 px-2 border border-0.5 bg-transparent border-white rounded-lg" />
+              <input
+                name="email"
+                value={details.email}
+                onChange={handleDetailsChange}
+                type="email"
+                placeholder="Adam smith"
+                className="text-sm py-1 px-2 border border-0.5 bg-transparent border-white rounded-lg"
+              />
             </div>
             <div className="flex flex-col gap-3">
               <label className="text-2xl">City</label>
-              <input name="city"
-          value={details.city}  
-          onChange={handleDetailsChange}
-          type="text" placeholder="Adam smith" className="text-sm py-1 px-2 border border-0.5 bg-transparent border-white rounded-lg" />
+              <input
+                name="city"
+                value={details.city}
+                onChange={handleDetailsChange}
+                type="text"
+                placeholder="Adam smith"
+                className="text-sm py-1 px-2 border border-0.5 bg-transparent border-white rounded-lg"
+              />
             </div>
             <div className="flex flex-col gap-3">
               <label className="text-2xl">Description</label>
-              <textarea name="description"
-          value={details.description}
-          onChange={handleDetailsChange}
-          type="text" placeholder="Description of your project." className="text-sm py-1 px-2 border border-0.5 bg-transparent border-white rounded-lg" />
+              <textarea
+                name="description"
+                value={details.description}
+                onChange={handleDetailsChange}
+                type="text"
+                placeholder="Description of your project."
+                className="text-sm py-1 px-2 border border-0.5 bg-transparent border-white rounded-lg"
+              />
             </div>
             <div>
-            <button disabled={!details.name || !details.email || !details.description}
-        onClick={handleSendEmail} className="font-bold text-black bg-white py-3 px-12 tablet:px-12 laptop:px-12 desktop:px-16 rounded-full text-xl tablet:text-xl laptop:text-lg desktop:text-xl">
-            Send email
-          </button>
+              <button
+                disabled={
+                  !details.name || !details.email || !details.description
+                }
+                onClick={handleSendEmail}
+                className="font-bold text-black bg-white py-3 px-12 tablet:px-12 laptop:px-12 desktop:px-16 rounded-full text-xl tablet:text-xl laptop:text-lg desktop:text-xl"
+              >
+                Send email
+              </button>
             </div>
           </form>
         </div>
